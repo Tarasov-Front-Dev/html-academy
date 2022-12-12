@@ -1,6 +1,7 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  min-width: 550px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -22,20 +23,20 @@ h2 {
   padding-bottom: 12px;
 }
 
-.container {
-  width: 510px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .site-header {
   min-width: 550px;
   height: 186px;
-  margin-bottom: 70px;
+  margin:  0 auto 70px;  
   padding-top: 30px;
   background: #847462 no-repeat center url("img/gloevk-bg.jpg");
   background-size: cover;
   color: #ffffff;
+}
+
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .site-header p {
@@ -52,6 +53,7 @@ h2 {
 .site-header img {
   display: block;
   margin: 0 auto;
+  min-width: 550px;
 }
 
 .features {
@@ -114,12 +116,14 @@ h2 {
 }
 
 .site-footer {
+  margin: 0 auto;
   min-width: 550px;
   background-color: #847462;
   color: #ffffff;
 }
 
 .site-footer .container {
+  width: 510px;
   text-align: center;
 }
 
